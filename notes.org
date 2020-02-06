@@ -1,0 +1,55 @@
+#+TITLE: Research Notes HisVis
+#+AUTHOR: Melvin Wevers
+
+
+* Background
+Picture collection of Press agency De Boer for the period 1945-2004. The picture
+collection focuses on national and regional events, although over time the focus gradually
+shifted to the region Kennemerland. This region just north of Amsterdam includes cities
+such as Haarlem, Zandvoort, Bloemendaal, and Alkmaar.
+
+
+In 1962, founder Cees de Boer was awarded the World Press Photo and the Silver Camera
+(Zilveren Camera). Cees’ son Joppe won the national photojournalist award in 1969. The
+press agency provided pictures to the Regional newspaper Haarlems Dagblad. The photo
+collection depicted a wide range of events, ranging from the first and only show of The
+Beatles in Blokker to opening of restaurants, and sport events.
+
+The photo collection consists of approximately 2 million negatives and metadata. The
+metadata is based on topic cards and logs kept by the photo agency. The inventory contains
+data for the period 1945-1990. The agency detailed what was depicted using topic
+cards. Moreover, for the period 1952-2004, De Boer kept logs. For the period 1952-1990,
+these have been transcribed using volunteers, the remainder is in the process of
+transcription with a deadline in juli 2018.  The negatives of the pictures are currently
+being digitised, and these will be linked to the metadata using identifiers. These
+pictures, however, are not segmented.
+
+The metadata related to the pictures contains the following information. 
+- *Unique identifier*
+- *Topic*; transcribed from topic cards. Every sheet contains one topic.
+- *Description*; a longer description.  
+- *place*; information on the place depicted in the picture. 75,295 pictures have been
+  linked to a 909 unique places.  
+- *street*; information on the street depicted in the picture. 18,641 pictures have been
+  linked to 3,368 unique streets.  
+- *person*; information on the person depicted in the picture. 15,045 pictures have been
+  linked to 8,574 unique people. There is some redundancy in this category.
+
+
+
+* Algorithms
+
+Faster-rcnn
+
+Yolo
+
+
+
+* Datasets and categories
+
+Microsofto Coco was trained on 100k images and includes 80 classes. 
+ImageNet includes 13 million images and 22k classes, that are much more specific than
+those in Coco. The categories in these two are combined using WordTree, because there
+exists an hierarchical structure in these categorires. For example, specific types of dogs
+are a subclass of the category 'dog'. This combinations leads to 9,418 classes
+

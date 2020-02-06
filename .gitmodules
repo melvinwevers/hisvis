@@ -1,0 +1,3 @@
+[submodule "src/places365"]
+	path = src/places365
+	url = https://github.com/CSAILVision/places365.git

@@ -1,0 +1,30 @@
+# Jupyter NB Checkpoints
+.ipynb_checkpoints/
+
+# Models
+*.pth.tar
+
+# exclude data
+/data/
+
+# Mac OS
+.DS_Store
+
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
