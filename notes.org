@@ -3,6 +3,8 @@
 
 
 * Background
+
+
 Picture collection of Press agency De Boer for the period 1945-2004. The picture
 collection focuses on national and regional events, although over time the focus gradually
 shifted to the region Kennemerland. This region just north of Amsterdam includes cities
@@ -52,4 +54,31 @@ ImageNet includes 13 million images and 22k classes, that are much more specific
 those in Coco. The categories in these two are combined using WordTree, because there
 exists an hierarchical structure in these categorires. For example, specific types of dogs
 are a subclass of the category 'dog'. This combinations leads to 9,418 classes
+
+
+** Training set
+
+- limited number of images
+Bedroom
+Bookstore
+Campsite
+
+- to do:
+make subcategories for ceremony > handshake, medal, etc..
+
+- fix group / portrait etc..
+
+- extend:
+courtyard, dormroom, garbage dump, gas station, korfbal, lighthouse,
+motorcycle, movieset, radio studio, repair shop, table tennis, tent, train interior, water
+polo, water tower, 
+
+- combine:
+street with driveway
+
+boats and harbor very similar categories
+
+
+
+
 
