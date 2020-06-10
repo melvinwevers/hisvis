@@ -1,0 +1,447 @@
+\documentclass[a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+
+\usepackage[english]{babel}
+\usepackage{csquotes}
+
+\usepackage{graphicx}
+
+\usepackage[notes,backend=biber]{biblatex-chicago}
+\bibliography{bibliography.bib}
+
+
+\title{HiSVis}
+\author{Melvin Wevers}
+\date{\today}
+ 
+\begin{document}
+ 
+\maketitle
+ 
+\section{Introduction}
+Computer Vision algorithms have become capable identifying objects and scenes in images with high accuracy. While computer vision algorithms are commonplace in the technology for self-driving cars, surveillance, or the analysis of social media posts, there use for heritage collection has only recently been growing. The benefits range for automatically enriching collections, to improve search capabilities, or suplementing large-scale analysis of visual collections. However, many of the existing models are trained on contemporary data, which impacts their accuracy and use for heritage collections. Both on the level of the medium and the content, contemporary data has a different visual style than historical images. Compare, for example, a grainy black and white image of a traffic situation in the 1950s to a high-resolution color image of a highway in 2020. Not only the cars look different, but the use of color and the abilities of cameras are very different. 
+
+One approach to counter this lack of models trained on historical data is to feed historical material to existing models and fine tune their performance. This, however, builds upon the categories existent in the modern datasets. These categories do not always map onto the categories present in historical collections and heritage institutes and their users might be looked for different categories as well. A different approach, transfer learning, which uses existing models but adds new categorizations, which are trained using the historical material, fits better with these needs.  
+
+In this paper, we focus on one particular computer vision task: scene detection. This task does not describe the existence of a particular object in a picture, or draws bounding boxes around these objects, but rather tries to describe ``the place in which the objects seat''\autocite{zhou_places_2018}
+
+We explore how well existing scene detection algorithm can be fine-tuned for a historical photo collection. We will reflect on the creation of the training data, the training process, as well as the evaluation. Finally, we discuss the added benefits of this type of computer vision algorithm for heritage institutes and archives. 
+
+This article uses the photo collection of press agency \textit{De Boer} for the period 1945-2004. This collection focuses on national and regional events, although over time the focus gradually shifted to the region Kennemerland. This region, just north of Amsterdam, includes cities such as Haarlem, Zandvoort, Bloemendaal, and Alkmaar.
+%
+The value of the collection was recognized locally, nationally, and internationally. In 1962, the founder of this prestigious photo collection, Cees de Boer, was awarded the World Press Photo and the Silver Camera (\textit{Zilveren Camera}). Cees' son Joppe won the national photo journalist award in 1969. The press agency provided pictures to the Regional newspaper \textit{Haarlems Dagblad}. The photo collection depicted a wide range of events, ranging from the first and only show of The Beatles in Blokker to opening of restaurants, and sport events.
+
+The photo collection consists of approximately 2 million negatives and metadata for the period 1945-2004. The metadata is based on topic cards and logs kept by the photo agency. On these topic cards, the agency detailed what was depicted on the pictures. Moreover, for the period 1952-2004, De Boer kept logs. For the period 1952-1990, these logs have been transcribed using volunteers. The negatives of the pictures are currently being digitised, and these digitized photographs will be linked to the metadata using identifiers. As part of this digitization process, samples of photographs will also be annotated using the topic cards and manual annotators. These annotations will be used to train computer vision algorithms to further augment the dataset and to create models trained on historical photo collection. The latter functions as a corrective to existing computer vision models that are biased towards contemporary material. 
+
+\section{Data}
+
+For this study, we relied on a subset of data that had already been digitized by the \textit{Noord-Hollands Archief}. This subset consisted of 2,545 images from their online repository, an early batch of digitized images, and digitized small negatives. 
+
+We took the categorization scheme for Places-365 as a starting point. We augmented this scheme with information from the catalogue cards that the Boer used. These catalogue cards could not be linked to the categorization scheme directly, because these cards often contain too explicit information, too specific category or category that were not visually represented. Together with archivists and cultural historians, we further optimized the categorization.\footnote{In the appendix, we added annotation guidelines, which will be used for the annotation of the further dataset.} This resulted in a training scheme of 159 categories. I removed categories with less than 10 images, this included categories such as: `house\_boat', `castle', and `campsite'.\footnote{Turn back to these categories when annotating the large dataset, which will most probably lead to more training examples for the categories with few images.} 
+
+The distribution of these images is heavily skewed as can be seen in Figure.
+
+
+\begin{figure}
+  \includegraphics[width=\linewidth]{../output/figures/categories.png}
+  \caption{Distribution of categories in training set.}
+  \label{fig:categories}
+\end{figure}
+
+From these training set, I created a random validation set containing 20 percent of the images.
+
+\section{Method}
+Scene detection .... 
+
+For the scene detection in this dataset, we turn to transfer learning. As a starting point, we rely on the ResNet50-places365 model. In this model, we unfreeze the final fully-connected layers, add a ReLU layer, a dropout layer, and a LogSoftmax layer. We apply data augmentations and use the adaptive optimizer AdamW
+
+We train the model for a maximum of 100 epochs, with an early stopping set at 5 epochs. To counter for the imbalance of the training categories, we applied weight-balancing to the training data. 
+
+Experimented with different drop out layers, and unfreezing of deeper layers.
+
+\section{Results}
+
+\section{Discussion}
+
+During the second phase of the project we will digitize the entire photo collection and for a subset of these images, we will use groups of annotators to provide them with annotations.
+
+\section{Appendix}
+\textbf{AccidentCar}
+Traffic accident involving an automobile
+
+**Artwork**
+Artwork without people
+
+**Exhibition**
+Room with artwork(s) and possibly people
+
+**Auditorium**
+Public building (used for speeches, performances) where audience sits. Pictures with and without audiences
+
+Note: some overlap with categories conference room and speech
+
+**Badminton**
+People playing badminton
+
+**Bakery
+Photos inside bakery, baking bread, presenting bread indoor/outdoors
+
+Overlap with Kitchen
+
+**Bar**
+Area where drinks are served/consumed
+
+Overlap with Dining Room/Game Room
+
+**Baseball
+People playing baseball
+
+**Basketball / Korfball
+People playing basketball or korfbal (Dutch variant)
+
+**Beach**
+Coastline/sand
+Dunes is a separate category. If Beach is main focused then beach. Overlap with crowd/horse/running. 
+What to do if there’s only water visible?
+
+**Bedroom**
+Images taken within bedrooms, i.e. must feature a bed
+
+**Beauty Salon**
+Images that feature hairdressers or beauty salons
+
+**Bicycles**
+Features bicycles or people riding bicycles
+Overlap with cycling, category for professional cycling
+
+Subcategories: bicycle shop
+Overlap with street
+
+**Boat Deck**
+Picture that focus on the deck of a boat, either with or without people. Not showing entire ship/boat from a distance
+
+Overlap with boat category
+
+**Boats**
+Category focusing on a boat or multiple boats.
+
+Overlap with harbor/shipyard. If boat is harboured and harbor is taking up large area of picture. Shipyard depicts construction area for boats, boats under construction
+
+Overlap with beach, canal, river, waterfront. Difference is focus on boat
+
+**Bookstore/library**
+Bookstore or library (difficult to separate), rows of books, people reading
+
+Overlap with office, room which also often features books.
+
+**Boxing ring**
+Area for boxing matches.
+
+**Bridge**
+Picture should feature a bridge as a central element
+Overlap with street/canal/river/boat
+
+**Building Facade**
+Depicting the facade of a building/rows of buildings. Not showing the full building from a distance. 
+Overlap with residential area/mansion 
+Latter are single large house, former pictures of areas without a clear focus on the facade.
+
+Overlap shopping area/residential area/mansion
+
+**Bus Stop**
+Area where busses stop. 
+
+**Bus_truck**
+Focus on large busses and trucks
+
+Overlap with street
+
+**Butchers_shop**
+Butcher shop from inside, or people preparing meat
+Overlap with animals/shopfront/shop/kitchen
+
+**Campsite**
+People camping using tents/caravans etc.
+
+**Canal**
+Flow of water, also includes natural flow of water rivers. 
+
+Overlap with bridge/river/boat/fishing/waterfront
+
+**Car**
+Pictures that focus on a car
+
+**Conference Room**
+Setting features meeting table with people sitting around it
+
+**Crowd**
+Gathering of people, where individuals are not clearly discernible. When posing for picture put in portrait category.
+
+**Crosswalk**
+People crossing street, ‘zebra’ must be visible, otherwise street might be better
+
+**Cycling**
+Professional cyclists
+
+**Dancing**
+People dancing
+Overlap with bar, music performance, plaza
+
+
+**Dining Room**
+Area where people eat, both in restaurants and houses
+
+**Drive Way**
+Drive way in front of buildings
+
+**Dunes**
+Photos of dunes.
+Overlap with parade/memorial/crowd
+
+**Excavation**
+People digging up something, archeological finds
+Overlap with construction site
+
+**Exhibition**
+Display of artwork with crowd of people in a museum or gallery
+
+**Factory_indoor**
+Pictures taken with factories/assembly lines/production facilities
+
+**Fair**
+Fun fairs
+
+**Farm**
+Buildings surrounded by pasture/animals/crops
+
+**Farm_field**
+People working in farm fields/pictures of crops/farm fields
+Overlap with animals
+
+**Field Hockey**
+People playing field hockey
+
+**Field_hockey_team**
+Pictures of field hockey teams
+
+**Fishery**
+Pictures of fishing industry
+
+**Fishing**
+People fishing
+
+**Flag**
+People holding or raising flags
+Overlap with parade in which people hold flags
+
+**Flowers**
+Pictures that include flowers
+
+**Forest**
+Picture taken in a forest, featuring trees
+
+**Fountain**
+Pictures of fountains
+
+**Funeral**
+Pictures of a funeral. Similar to memorial and cemetery. Here we only choose pictures that show a casket or burial itself.
+
+Overlap with memorial, parade, cemetery, flowers, church indoor
+
+**Garbage Dump**
+
+**Gas Station**
+
+**Gymnastics**
+People performing gymnastics indoor and outdoor
+
+Overlap with circus/dancing
+
+**Harbor**
+Ships docked at a harbor, focus is not ships, but context of the harbor. 
+Overlap with boats and waterfront > waterfront is focus is on waterfront/kade
+
+**Historical plays**
+People dressed up in historical garment enacting historical plays
+
+**Hospital**
+Pictures taken in a hospital/dentist/medical lab setting
+
+**Ice Skating**
+People skating on ice
+
+**Kitchen**
+People in kitchen, preparing food
+Overlap with butcher_store
+
+**Living_room**
+People situated in a living room space.
+Overlap with portraits, which are often taken in a living room. To learn the living room category, I placed pictures in here taken in living rooms, with enough information on the living room. 
+Overlap with portrait
+
+**Mansion**
+Large houses, separated from housing blocks
+
+**Market_indoor**
+Indoor market/shopping fair
+
+**Market_outdoor**
+Outdoor market
+Overlap with crowd
+
+**Marriage**
+Depicting a marriage couple, marriage ceremony
+
+Overlap with portrait group
+
+**Martial Arts Gym**
+Space where people fight, judo/karate
+
+**Memorial**
+Depicting a memorial site. 
+Overlap with funeral/flowers/flag
+
+**Military**
+Pictures depicting military personnel or military equipment
+
+Overlap with parade and bus/trucks
+
+**Motorcycle**
+Depicting motorcycle(s)
+
+**Movie set**
+Depicting movie sets
+
+**Musical Performance**
+People performing music
+Overlap with dance
+
+**Office**
+Pictures set in an office environment
+
+**Parade**
+People parading, marching bands
+
+**Parade_float**
+Pictures with flower trucks/floats
+
+**Patio**
+People on patio’s sitting
+
+**Playground**
+People/Children playing in a playground
+Overlap with funfair and portrait children
+
+**Pond**
+Scenery of a pond.
+Overlap with canal/river/park
+
+
+**Portrait Individual**
+
+
+**Portrait Group**
+
+**Portrait Child**
+One child
+
+**Portrait Children**
+One or more children
+
+**Protest**
+People protesting, banners clear signal
+
+**Racecourse**
+Pictures taken on racecourse. Also category soapbox race
+Overlap with car, accident. 
+
+**Railroad track**
+Pictures of the railroad track. There’s is also a category for trains.
+
+**Residential Area**
+Living area
+Overlap with street/building facade
+
+**Rowing**
+People rowing
+
+**Running**
+People running in a sports event
+
+**Saint Niclaus**
+Pictures of the Saint Niclaus festivities
+
+**Shed**
+Wooden buildings, beach houses, living trailers
+
+**Shipyard**
+Construction area for ships. Overlap with boats and harbor. 
+
+**Shop_interior**
+Photos of different kinds of shop interiors. 
+
+**Shop_front**
+Picture of a shop front, ‘etalage’
+
+**Shopping_street**
+Depicting street of shops/shoppers
+
+**Sign**
+Signs, plaques, maps
+
+**Snowfield**
+Scenes set in snow, people skiing, sledding
+
+**Soapbox Race**
+
+**Speech**
+Focus on person specking
+
+**city_hall**
+Pictures taken on Haarlem’s city hall’s staircase
+
+**Statue**
+Pictures of sculptures/statues
+
+**Street**
+Depicting street sceneries. Overlap with car, residental neighbourhood 
+
+**Swimming Pool Indoor**
+
+**Swimming Pool Outdoor**
+
+**Theatre**
+Plays performed in a theatre setting
+
+**Tower**
+Pictures of towers, not church towers. 
+
+**Train**
+Pictures of trains
+Overlap with train station
+
+**Train_station**
+Pictures of train stations, trains at stations etc..
+
+**Tram**
+Pictures of trams
+
+**Volley ball**
+Pictures of people playing volley ball
+
+**Water Polo**
+People playing water polo
+
+**Water_ski**
+People on water skis
+
+**Water Front**
+Scenes that focus on the water front
+
+**Windmill**
+Pictures that contain a windmill
+
+
+\end{document}

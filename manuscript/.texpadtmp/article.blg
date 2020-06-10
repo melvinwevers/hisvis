@@ -1,0 +1,11 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is '/Users/melvinwevers/Dropbox/Projects/HisVis/docs/.texpadtmp/article.blg'
+[99] biber-darwin:322> INFO - === Tue Jun  9, 2020, 14:54:23
+[120] Biber.pm:415> INFO - Reading '/Users/melvinwevers/Dropbox/Projects/HisVis/docs/.texpadtmp/article.bcf'
+[245] Biber.pm:943> INFO - Found 1 citekeys in bib section 0
+[261] Biber.pm:4256> INFO - Processing section 0
+[262] Utils.pm:75> INFO - Globbing data source '/Users/melvinwevers/Dropbox/Projects/HisVis/docs/bibliography.bib'
+[262] Utils.pm:91> INFO - Globbed data source '/Users/melvinwevers/Dropbox/Projects/HisVis/docs/bibliography.bib' to /Users/melvinwevers/Dropbox/Projects/HisVis/docs/bibliography.bib
+[274] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/melvinwevers/Dropbox/Projects/HisVis/docs/bibliography.bib' for section 0
+[276] bibtex.pm:1653> INFO - LaTeX decoding ...
+[306] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/melvinwevers/Dropbox/Projects/HisVis/docs/bibliography.bib'
