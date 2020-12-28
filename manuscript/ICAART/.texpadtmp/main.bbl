@@ -1,0 +1,115 @@
+\begin{thebibliography}{}
+
+\bibitem[Bell and Impett, 2019]{bell2019ikonographie}
+Bell, P. and Impett, L. (2019).
+\newblock Ikonographie und interaktion. computergest{\"u}tzte analyse von posen
+  in bildern der heilsgeschichte.
+\newblock {\em Das Mittelalter}, 24(1):31--53.
+
+\bibitem[Bell et~al., 2018]{bell_computing_2018}
+Bell, P., Ommer, B., Ommer, B., and Ommer, B. (2018).
+\newblock {\em Computing {{Art Reader}}: {{Einf\"uhrung}} in Die Digitale
+  {{Kunstgeschichte}}, {{P}}. {{Kuroczy\'nski}} et al. (Ed.)}.
+
+\bibitem[Bhargav et~al., 2019]{bhargav_deep_2019}
+Bhargav, S., {van Noord}, N., and Kamps, J. (2019).
+\newblock Deep {{Learning}} as a {{Tool}} for {{Early Cinema Analysis}}.
+\newblock In {\em Proceedings of the 1st {{Workshop}} on {{Structuring}} and
+  {{Understanding}} of {{Multimedia heritAge Contents}}}, {{SUMAC}} '19, pages
+  61--68, {Nice, France}. {Association for Computing Machinery}.
+
+\bibitem[Goodfellow et~al., 2016]{goodfellow_deep_2016}
+Goodfellow, I., Bengio, Y., and Courville, A. (2016).
+\newblock {\em Deep {{Learning}}}.
+\newblock {The MIT Press}, {Cambridge, Massachusetts}.
+
+\bibitem[Madhu et~al., 2019]{madhu2019recognizing}
+Madhu, P., Kosti, R., M{\"u}hrenberg, L., Bell, P., Maier, A., and Christlein,
+  V. (2019).
+\newblock Recognizing characters in art history using deep learning.
+\newblock In {\em Proceedings of the 1st Workshop on Structuring and
+  Understanding of Multimedia heritAge Contents}, pages 15--22.
+
+\bibitem[Mager et~al., 2020]{mager_visual_2020}
+Mager, T., Khademi, S., Siebes, R., Hein, C., de~Boer, V., and van Gemert, J.
+  (2020).
+\newblock Visual {{Content Analysis}} and {{Linked Data}} for {{Automatic
+  Enrichment}} of {{Architecture}}-{{Related Images}}.
+\newblock In Kremers, H., editor, {\em Digital {{Cultural Heritage}}}, pages
+  279--293. {Springer International Publishing}, {Cham}.
+
+\bibitem[Maiwald, 2019]{maiwald2019generation}
+Maiwald, F. (2019).
+\newblock Generation of a benchmark dataset using historical photographs for an
+  automated evaluation of different feature matching methods.
+\newblock {\em International Archives of the Photogrammetry, Remote Sensing \&
+  Spatial Information Sciences}.
+
+\bibitem[Maiwald et~al., 2017]{maiwald2017photogrammetric}
+Maiwald, F., Vietze, T., Schneider, D., Henze, F., M{\"u}nster, S., and
+  Niebling, F. (2017).
+\newblock Photogrammetric analysis of historical image repositories for virtual
+  reconstruction in the field of digital humanities.
+\newblock {\em The International Archives of Photogrammetry, Remote Sensing and
+  Spatial Information Sciences}, 42:447.
+
+\bibitem[Niebling et~al., 2020]{niebling_analyzing_2020}
+Niebling, F., Bruschke, J., Messemer, H., Wacker, M., and {von Mammen}, S.
+  (2020).
+\newblock Analyzing {{Spatial Distribution}} of {{Photographs}} in {{Cultural
+  Heritage Applications}}.
+\newblock In Liarokapis, F., Voulodimos, A., Doulamis, N., and Doulamis, A.,
+  editors, {\em Visual {{Computing}} for {{Cultural Heritage}}}, Springer
+  {{Series}} on {{Cultural Computing}}, pages 391--408. {Springer International
+  Publishing}, {Cham}.
+
+\bibitem[Offert, 2018]{offert2018images}
+Offert, F. (2018).
+\newblock Images of image machines. visual interpretability in computer vision
+  for art.
+\newblock In {\em Proceedings of the European Conference on Computer Vision
+  (ECCV)}, pages 0--0.
+
+\bibitem[Oliva and Torralba, 2001]{oliva_modeling_2001}
+Oliva, A. and Torralba, A. (2001).
+\newblock Modeling the shape of the scene: {{A}} holistic representation of the
+  spatial envelope.
+\newblock {\em International journal of computer vision}, 42(3):145--175.
+
+\bibitem[Palermo et~al., 2012]{Palermo_2012}
+Palermo, F., Hays, J., and Efros, A.~A. (2012).
+\newblock Dating historical color images.
+\newblock In Fitzgibbon, A., Lazebnik, S., Perona, P., Sato, Y., and Schmid,
+  C., editors, {\em Computer Vision \textendash{} {{ECCV}} 2012}, pages
+  499--512, {Berlin, Heidelberg}. {Springer Berlin Heidelberg}.
+
+\bibitem[Rawat and Wang, 2017]{rawat_deep_2017}
+Rawat, W. and Wang, Z. (2017).
+\newblock Deep {{Convolutional Neural Networks}} for {{Image Classification}}:
+  {{A Comprehensive Review}}.
+\newblock {\em Neural Computation}, 29(9):2352--2449.
+
+\bibitem[Voulodimos et~al., 2018]{voulodimos_deep_2018}
+Voulodimos, A., Doulamis, N.~D., Doulamis, A., and Protopapadakis, E. (2018).
+\newblock Deep {{Learning}} for {{Computer Vision}}: {{A Brief Review}}.
+\newblock {\em Comput. Intell. Neurosci.}
+
+\bibitem[Xiao et~al., 2010]{xiao2010sun}
+Xiao, J., Hays, J., Ehinger, K.~A., Oliva, A., and Torralba, A. (2010).
+\newblock Sun database: Large-scale scene recognition from abbey to zoo.
+\newblock In {\em 2010 IEEE Computer Society Conference on Computer Vision and
+  Pattern Recognition}, pages 3485--3492. IEEE.
+
+\bibitem[Xie et~al., 2020]{xie_scene_2020}
+Xie, L., Lee, F., Liu, L., Kotani, K., and Chen, Q. (2020).
+\newblock Scene recognition: {{A}} comprehensive survey.
+\newblock {\em Pattern Recognition}, 102:107205.
+
+\bibitem[Zhou et~al., 2018]{zhou_places_2018}
+Zhou, B., Lapedriza, A., Khosla, A., Oliva, A., and Torralba, A. (2018).
+\newblock Places: {{A}} 10 {{Million Image Database}} for {{Scene
+  Recognition}}.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  40(6):1452--1464.
+
+\end{thebibliography}

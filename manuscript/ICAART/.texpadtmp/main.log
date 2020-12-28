@@ -1,0 +1,820 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.23)  12 OCT 2020 11:37
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06> (./article.cls
+Document Class: article 2000/05/19 v1.4b Standard LaTeX document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+\epsfxsize=\dimen137
+\epsfysize=\dimen138
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen139
+\captionmargin@=\dimen140
+\captionwidth=\dimen141
+\caption@tempdima=\dimen142
+\caption@indent=\dimen143
+\caption@parindent=\dimen144
+\caption@hangindent=\dimen145
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count175
+\c@continuedfloat=\count176
+)
+\c@subfigure=\count177
+\c@subtable=\count178
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count179
+\calc@Bcount=\count180
+\calc@Adimen=\dimen146
+\calc@Bdimen=\dimen147
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count181
+\calc@Cskip=\skip51
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen148
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen149
+\Hy@linkcounter=\count182
+\Hy@pagecounter=\count183
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count184
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count185
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen150
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count186
+\Field@Width=\dimen151
+\Fld@charsize=\dimen152
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count187
+\c@Item=\count188
+\c@Hfootnote=\count189
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+\Fld@listcount=\count190
+\c@bookmark@seq@number=\count191
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+)
+\Hy@SectionHShift=\skip52
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen153
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count192
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count193
+\leftroot@=\count194
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count195
+\DOTSCASE@=\count196
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen154
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count197
+\c@MaxMatrixCols=\count198
+\dotsspace@=\muskip17
+\c@parentequation=\count199
+\dspbrk@lvl=\count266
+\tag@help=\toks18
+\row@=\count267
+\column@=\count268
+\maxfields@=\count269
+\andhelp@=\toks19
+\eqnshift@=\dimen155
+\alignsep@=\dimen156
+\tagshift@=\dimen157
+\tagwidth@=\dimen158
+\totwidth@=\dimen159
+\lineht@=\dimen160
+\@envbody=\toks20
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks22
+\thm@bodyfont=\toks23
+\thm@headfont=\toks24
+\thm@notefont=\toks25
+\thm@headpunct=\toks26
+\thm@preskip=\skip56
+\thm@postskip=\skip57
+\thm@headsep=\skip58
+\dth@everypar=\toks27
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen161
+\lightrulewidth=\dimen162
+\cmidrulewidth=\dimen163
+\belowrulesep=\dimen164
+\belowbottomsep=\dimen165
+\aboverulesep=\dimen166
+\abovetopsep=\dimen167
+\cmidrulesep=\dimen168
+\cmidrulekern=\dimen169
+\defaultaddspace=\dimen170
+\@cmidla=\count270
+\@cmidlb=\count271
+\@aboverulesep=\dimen171
+\@belowrulesep=\dimen172
+\@thisruleclass=\count272
+\@lastruleclass=\count273
+\@thisrulewidth=\dimen173
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count274
+\mult@box=\box47
+\multicol@leftmargin=\dimen174
+\c@unbalance=\count275
+\c@collectmore=\count276
+\doublecol@number=\count277
+\multicoltolerance=\count278
+\multicolpretolerance=\count279
+\full@width=\dimen175
+\page@free=\dimen176
+\premulticols=\dimen177
+\postmulticols=\dimen178
+\multicolsep=\skip59
+\multicolbaselineskip=\skip60
+\partial@page=\box48
+\last@line=\box49
+\maxbalancingoverflow=\dimen179
+\mult@rightbox=\box50
+\mult@grightbox=\box51
+\mult@gfirstbox=\box52
+\mult@firstbox=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\c@minrows=\count280
+\c@columnbadness=\count281
+\c@finalcolumnbadness=\count282
+\last@try=\dimen180
+\multicolovershoot=\dimen181
+\multicolundershoot=\dimen182
+\mult@nat@firstbox=\box91
+\colbreak@box=\box92
+\mc@col@check@num=\count283
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/pslatex/pslatex.sty
+Package: pslatex 1996/07/24 v1.2 pslatex emulation (DPC)
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 65.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ptmcm/m/n on input line 65.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptmcm/m/n on input line 65.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 66.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ptmcm/m/it on input line 66.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ptmcm/m/it on input line 66.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 67.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/pzccm/m/n on input line 67.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/pzccm/m/n on input line 67.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 68.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/psycm/m/n on input line 68.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/psycm/m/n on input line 68.
+\symbold=\mathgroup6
+\symitalic=\mathgroup7
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 74.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 74.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 74.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 75.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 75.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 75.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 226.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 230.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 234.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 243.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 384.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 388.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 392.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 401.
+
+) (./apalike.sty
+\bibhang=\skip61
+) (./SCITEPRESS.sty
+Conference Style for SCITEPRESS for LaTeX 2e -- version of January 2020
+\titlebox=\skip62
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count284
+\l__pdf_internal_box=\box93
+) (/Users/melvinwevers/work/projects/HisVis_Manuscript/ICAART/.texpadtmp/main.aux
+
+LaTeX Warning: Label `fig:examplesa' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:examplesa' multiply defined.
+
+
+LaTeX Warning: Label `fig:examplesb' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:examplesb' multiply defined.
+
+
+LaTeX Warning: Label `fig:examplesc' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:examplesc' multiply defined.
+
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 18.
+LaTeX Font Info:    Trying to load font information for OMS+pzccm on input line 18.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omspzccm.fd
+File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
+)
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+ (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count285
+\scratchdimen=\dimen183
+\scratchbox=\box94
+\nofMPsegments=\count286
+\nofMParguments=\count287
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count288
+\MPscratchDim=\dimen184
+\MPnumerator=\count289
+\makeMPintoPDFobject=\count290
+\everyMPtoPDFconversion=\toks29
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box95
+Package hyperref Info: Link coloring OFF on input line 18.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count291
+)
+LaTeX Info: Redefining \ref on input line 18.
+LaTeX Info: Redefining \pageref on input line 18.
+LaTeX Info: Redefining \nameref on input line 18.
+ (/Users/melvinwevers/work/projects/HisVis_Manuscript/ICAART/.texpadtmp/main.out) (/Users/melvinwevers/work/projects/HisVis_Manuscript/ICAART/.texpadtmp/main.out)
+\@outlinefile=\write3
+\openout3 = `main.out'.
+
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 31.
+LaTeX Font Info:    Trying to load font information for OT1+ptmcm on input line 31.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
+File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ptmcm on input line 31.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omlptmcm.fd
+File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+psycm on input line 31.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omxpsycm.fd
+File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.69997> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5.5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
+Package epstopdf Info: Source file: <orcid.eps>
+(epstopdf)                    date: 2018-12-11 13:40:00
+(epstopdf)                    size: 975258 bytes
+(epstopdf)             Output file: <orcid-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-10-12 11:33:39
+(epstopdf)                    size: 11824 bytes
+(epstopdf)             Command: <repstopdf --outfile=orcid-eps-converted-to.pdf orcid.eps>
+(epstopdf)             \includegraphics on input line 31.
+Package epstopdf Info: Output file is already uptodate.
+<orcid-eps-converted-to.pdf, id=4, 598.235pt x 598.235pt>
+File: orcid-eps-converted-to.pdf Graphic file (type pdf)
+<use orcid-eps-converted-to.pdf>
+Package pdftex.def Info: orcid-eps-converted-to.pdf  used on input line 31.
+(pdftex.def)             Requested size: 8.5359pt x 8.53497pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+
+ []
+
+Package epstopdf Info: Source file: <orcid.eps>
+(epstopdf)                    date: 2018-12-11 13:40:00
+(epstopdf)                    size: 975258 bytes
+(epstopdf)             Output file: <orcid-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-10-12 11:33:39
+(epstopdf)                    size: 11824 bytes
+(epstopdf)             Command: <repstopdf --outfile=orcid-eps-converted-to.pdf orcid.eps>
+(epstopdf)             \includegraphics on input line 31.
+Package epstopdf Info: Output file is already uptodate.
+File: orcid-eps-converted-to.pdf Graphic file (type pdf)
+<use orcid-eps-converted-to.pdf>
+Package pdftex.def Info: orcid-eps-converted-to.pdf  used on input line 31.
+(pdftex.def)             Requested size: 8.5359pt x 8.53497pt.
+
+Underfull \hbox (badness 4024) in paragraph at lines 38--41
+[]\OT1/ptm/m/n/10 While com-puter vi-sion tech-nol-ogy ad-vanced
+ []
+
+
+Underfull \vbox (badness 3312) has occurred while \output is active []
+
+ [1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+
+
+ <./orcid-eps-converted-to.pdf>]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 79.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 79.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 79.
+<figures/MLK.jpg, id=48, 2394.9475pt x 2419.0375pt>
+File: figures/MLK.jpg Graphic file (type jpg)
+<use figures/MLK.jpg>
+Package pdftex.def Info: figures/MLK.jpg  used on input line 99.
+(pdftex.def)             Requested size: 213.41443pt x 215.5262pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
+[][][][]$\OT1/ptm/m/n/9 https : / / velehanden . nl / projecten / bekijk / details / project /
+ []
+
+[2 <./figures/MLK.jpg>]
+Underfull \vbox (badness 1253) has occurred while \output is active []
+
+<figures/categories50.png, id=73, 361.35pt x 867.24pt>
+File: figures/categories50.png Graphic file (type png)
+<use figures/categories50.png>
+Package pdftex.def Info: figures/categories50.png  used on input line 171.
+(pdftex.def)             Requested size: 449.59116pt x 1079.03206pt.
+
+Overfull \hbox (236.17673pt too wide) in paragraph at lines 171--172
+[][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 460.23732pt on input line 174.
+
+<figures/memorial.jpg, id=78, 176.8997pt x 129.43881pt>
+File: figures/memorial.jpg Graphic file (type jpg)
+<use figures/memorial.jpg>
+Package pdftex.def Info: figures/memorial.jpg  used on input line 207.
+(pdftex.def)             Requested size: 134.87871pt x 98.69644pt.
+<figures/parade.jpg, id=79, 176.8997pt x 127.92868pt>
+File: figures/parade.jpg Graphic file (type jpg)
+<use figures/parade.jpg>
+Package pdftex.def Info: figures/parade.jpg  used on input line 213.
+(pdftex.def)             Requested size: 134.87871pt x 97.54498pt.
+<figures/construction_site.jpg, id=80, 175.4103pt x 130.89964pt>
+File: figures/construction_site.jpg Graphic file (type jpg)
+<use figures/construction_site.jpg>
+Package pdftex.def Info: figures/construction_site.jpg  used on input line 219.
+(pdftex.def)             Requested size: 134.87871pt x 100.6532pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--223
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--223
+[]
+ []
+
+<figures/artwork.jpg, id=81, 197.538pt x 142.8537pt>
+File: figures/artwork.jpg Graphic file (type jpg)
+<use figures/artwork.jpg>
+Package pdftex.def Info: figures/artwork.jpg  used on input line 229.
+(pdftex.def)             Requested size: 134.87871pt x 97.54247pt.
+<figures/castle.jpg, id=82, 176.8997pt x 237.30447pt>
+File: figures/castle.jpg Graphic file (type jpg)
+<use figures/castle.jpg>
+Package pdftex.def Info: figures/castle.jpg  used on input line 235.
+(pdftex.def)             Requested size: 134.87871pt x 180.94348pt.
+<figures/train.jpg, id=83, 129.2245pt x 92.6109pt>
+File: figures/train.jpg Graphic file (type jpg)
+<use figures/train.jpg>
+Package pdftex.def Info: figures/train.jpg  used on input line 241.
+(pdftex.def)             Requested size: 134.87871pt x 96.66632pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--245
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--245
+[]
+ []
+
+[3] [4 <./figures/categories50.png> <./figures/memorial.jpg> <./figures/parade.jpg> <./figures/construction_site.jpg>]
+Underfull \hbox (badness 1199) in paragraph at lines 302--306
+\OT1/ptm/m/n/10 model, which we fine tun-ing us-ing fast.ai's one
+ []
+
+
+LaTeX Warning: Citation `szegedyGoingDeeperConvolutions2014' on page 5 undefined on input line 318.
+
+
+LaTeX Warning: Citation `zhangMixupEmpiricalRisk2018' on page 5 undefined on input line 325.
+
+
+LaTeX Warning: Citation `yunCutMixRegularizationStrategy2019' on page 5 undefined on input line 333.
+
+[5 <./figures/artwork.jpg> <./figures/castle.jpg> <./figures/train.jpg>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 349.
+
+<figures/accident_stretcher_example.png, id=125, 1010.0937pt x 352.1958pt>
+File: figures/accident_stretcher_example.png Graphic file (type png)
+<use figures/accident_stretcher_example.png>
+Package pdftex.def Info: figures/accident_stretcher_example.png  used on input line 398.
+(pdftex.def)             Requested size: 213.41443pt x 74.40935pt.
+<figures/funeral_example.png, id=126, 1011.5391pt x 352.1958pt>
+File: figures/funeral_example.png Graphic file (type png)
+<use figures/funeral_example.png>
+Package pdftex.def Info: figures/funeral_example.png  used on input line 405.
+(pdftex.def)             Requested size: 213.41443pt x 74.30186pt.
+<figures/top20.png, id=129, 558.1653pt x 425.4294pt>
+File: figures/top20.png Graphic file (type png)
+<use figures/top20.png>
+Package pdftex.def Info: figures/top20.png  used on input line 450.
+(pdftex.def)             Requested size: 213.41443pt x 162.66454pt.
+
+Underfull \hbox (badness 1158) in paragraph at lines 446--454
+[]\OT1/ptm/m/n/10 Figure []7[] shows the top1-accuracy of the top
+ []
+
+<figures/top5_accuracy.png, id=130, 416.0343pt x 850.1361pt>
+File: figures/top5_accuracy.png Graphic file (type png)
+<use figures/top5_accuracy.png>
+Package pdftex.def Info: figures/top5_accuracy.png  used on input line 457.
+(pdftex.def)             Requested size: 213.41443pt x 436.09322pt.
+[6 <./figures/accident_stretcher_example.png> <./figures/funeral_example.png>] (/Users/melvinwevers/work/projects/HisVis_Manuscript/ICAART/.texpadtmp/main.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 15--20
+[]\OT1/ptm/m/n/9 Bhargav, S., van No-ord, N., and Kamps, J. (2019).
+ []
+
+[7 <./figures/top20.png> <./figures/top5_accuracy.png>]) (./guidelines.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+
+ []
+
+[8]
+Underfull \hbox (badness 2351) in paragraph at lines 95--97
+\OT1/ptm/m/n/10 ing from a dis-tance. Over-lap with res-i-den-tial
+ []
+
+
+Underfull \hbox (badness 5359) in paragraph at lines 107--109
+\OT1/ptm/b/n/10 Butchers shop \OT1/ptm/m/n/10 Butcher shop from in-side, or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--109
+\OT1/ptm/m/n/10 peo-ple prepar-ing meat. Over-lap with an-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--115
+\OT1/ptm/b/n/10 Canal \OT1/ptm/m/n/10 Flow of wa-ter, also in-cludes nat-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--115
+\OT1/ptm/m/n/10 u-ral flow of wa-ter rivers. Over-lap with
+ []
+
+
+Underfull \hbox (badness 6047) in paragraph at lines 195--198
+\OT1/ptm/b/n/10 Dunes \OT1/ptm/m/n/10 Pho-tos of dunes. Over-lap with pa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--208
+\OT1/ptm/b/n/10 Factory in-door \OT1/ptm/m/n/10 Pic-tures taken with fac-to-
+ []
+
+[9]
+Underfull \hbox (badness 2165) in paragraph at lines 293--295
+\OT1/ptm/b/n/10 Mansion \OT1/ptm/m/n/10 Large houses, sep-a-rated from hous-ing
+ []
+
+
+Underfull \hbox (badness 3635) in paragraph at lines 307--309
+\OT1/ptm/b/n/10 Martial Arts Gym \OT1/ptm/m/n/10 Space where peo-ple fight,
+ []
+
+
+Underfull \hbox (badness 2856) in paragraph at lines 325--328
+\OT1/ptm/b/n/10 Musical Per-for-mance \OT1/ptm/m/n/10 Peo-ple per-form-ing mu-sic
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 341--343
+\OT1/ptm/b/n/10 Playground \OT1/ptm/m/n/10 Peo-ple/Children play-ing in a play-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--349
+\OT1/ptm/b/n/10 Pond \OT1/ptm/m/n/10 Scenery of a pond. Over-lap with
+ []
+
+[10])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 479.
+ [11
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 479.
+ (/Users/melvinwevers/work/projects/HisVis_Manuscript/ICAART/.texpadtmp/main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 479.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 479.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 479.
+ ) 
+Here is how much of TeX's memory you used:
+ 8272 strings out of 480608
+ 127294 string characters out of 5903630
+ 395716 words of memory out of 5000000
+ 23918 multiletter control sequences out of 15000+600000
+ 583636 words of font info for 130 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 48i,10n,46p,742b,437s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
+
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /Users/melvinwevers/work/projects/HisVis_Manuscript/ICAART/.texpadtmp/main.pdf (11 pages, 3132508 bytes).
+PDF statistics:
+ 211 PDF objects out of 1000 (max. 8388607)
+ 170 compressed objects within 2 object streams
+ 54 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+

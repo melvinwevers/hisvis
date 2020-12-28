@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: /Users/melvinwevers/work/projects/HisVis_Manuscript/ICAART/.texpadtmp/main.aux
+The style file: ../apalike.bst
+Database file #1: ../example.bib
+Warning--I didn't find a database entry for "szegedyGoingDeeperConvolutions2014"
+Warning--I didn't find a database entry for "zhangMixupEmpiricalRisk2018"
+Warning--I didn't find a database entry for "yunCutMixRegularizationStrategy2019"
+Warning--empty publisher in bell_computing_2018
+You've used 17 entries,
+            1935 wiz_defined-function locations,
+            590 strings with 8270 characters,
+and the built_in function-call counts, 8236 in all, are:
+= -- 800
+> -- 399
+< -- 12
++ -- 136
+- -- 136
+* -- 694
+:= -- 1389
+add.period$ -- 55
+call.type$ -- 17
+change.case$ -- 146
+chr.to.int$ -- 17
+cite$ -- 18
+duplicate$ -- 321
+empty$ -- 554
+format.name$ -- 159
+if$ -- 1660
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 19
+newline$ -- 87
+num.names$ -- 57
+pop$ -- 152
+preamble$ -- 1
+purify$ -- 148
+quote$ -- 0
+skip$ -- 244
+stack$ -- 0
+substring$ -- 537
+swap$ -- 74
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 98
+warning$ -- 1
+while$ -- 68
+width$ -- 0
+write$ -- 229
+(There were 4 warnings)
