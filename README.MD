@@ -12,11 +12,11 @@ When using weight balancing,
 
 ## Data
 
-processed: contains the training set. These images can be downloaded from Zenodo.
+processed: contains the training set. These images can be downloaded from [Zenodo](https://doi.org/10.5281/zenodo.3888006)
 
 ## Models
 
-Contains the trained models. 
+The models can be downloaded from [Zenodo](https://doi.org/10.5281/zenodo.3888006). 
 
 ## Notebooks
 
@@ -27,7 +27,7 @@ Notebooks for exploring the training data and the results/
 _Figures_ contains generated figures
 _Results_ contains accuracy scores per class, cross_validation results, and predictions on the validation set.
 
-## SSRC
+## SRC
 
 `train_deBoer.py` - the script for transfer learning
 
